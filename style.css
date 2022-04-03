@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(56, 55, 55);
+    margin: 0;
+}
+
+#gatito {
+    display: inline;
+    width: 70px;
+}
+#suelo{
+    height: 80vh;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+#fondo {
+    background-color: rgb(2, 78, 153);
+    width: 100vw;
+    height: 100vh;
+}
+
+p{display: inline;}
+
+#piso{
+    background-color: brown;
+    height: 20vh;
+}
